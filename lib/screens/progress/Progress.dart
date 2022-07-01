@@ -11,15 +11,18 @@ class Progress extends StatelessWidget {
         elev: 0,
         back: false,
       ),
-      body: Container(
-        color: AppColors.white,
-        child: ListView(
-          children: [
-            PercentIndicators(),
-            WeeklyWeighing(),
-            CardsInformation(),
-            WeightProgression(),
-          ],
+      body: SingleChildScrollView(
+        child: Container(
+          margin: EdgeInsets.all(15),
+          color: AppColors.white,
+          child: Column(
+            children: [
+              PercentIndicators(),
+              WeeklyWeighing(),
+              CardsInformation(),
+              WeightProgression(),
+            ],
+          ),
         ),
       ),
     );

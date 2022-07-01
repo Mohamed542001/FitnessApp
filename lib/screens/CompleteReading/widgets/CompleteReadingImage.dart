@@ -6,7 +6,7 @@ class CompleteReadingImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+      margin: EdgeInsets.symmetric(horizontal: 15,vertical: 10),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(15),
         child: Image.asset(

@@ -14,7 +14,7 @@ class ChangePassword extends StatelessWidget {
           children: [
             ChangePasswordHeader(),
             Container(
-              padding: EdgeInsets.all(30),
+              padding: EdgeInsets.all(15),
               child: Column(
                 children: [
                   ChangePasswordForm(),

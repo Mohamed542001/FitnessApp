@@ -10,7 +10,7 @@ class NewAccStep5 extends StatelessWidget {
         width: double.infinity,
         height: double.infinity,
         color: AppColors.white,
-        padding: EdgeInsets.all(20),
+        padding: EdgeInsets.all(15),
         child: ListView(
 
           children: [

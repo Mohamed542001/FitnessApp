@@ -12,7 +12,7 @@ class SlidersView extends StatelessWidget {
     builder: (context,state)=> Column(
       children: [
         Container(
-          margin: EdgeInsets.symmetric(horizontal: 25),
+          margin: EdgeInsets.symmetric(vertical: 10),
           alignment: Alignment.topRight,
           child: CustomText(
             title: 'السن',
@@ -41,7 +41,7 @@ class SlidersView extends StatelessWidget {
           ),
         ),
         Container(
-          margin: EdgeInsets.symmetric(horizontal: 25),
+          margin: EdgeInsets.symmetric(vertical: 10),
           alignment: Alignment.topRight,
           child: CustomText(
             title: 'الطول',
@@ -70,7 +70,7 @@ class SlidersView extends StatelessWidget {
           ),
         ),
         Container(
-          margin: EdgeInsets.symmetric(horizontal: 25),
+          margin: EdgeInsets.symmetric(vertical: 10),
           alignment: Alignment.topRight,
           child: CustomText(
             title: 'الوزن',
@@ -99,7 +99,7 @@ class SlidersView extends StatelessWidget {
           ),
         ),
         Container(
-          margin: EdgeInsets.symmetric(horizontal: 25),
+          margin: EdgeInsets.symmetric(vertical: 10),
           alignment: Alignment.topRight,
           child: CustomText(
             title: 'الوزن الي عايزه توصليله',

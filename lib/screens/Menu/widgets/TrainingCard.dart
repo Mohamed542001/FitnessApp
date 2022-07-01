@@ -12,7 +12,7 @@ class TrainingCard extends StatelessWidget {
           children: [
             Container(
               margin:
-              EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              EdgeInsets.all(15),
               child: CustomText(
                 title:
                 '${TrainingModel().trainingModel[i]['day']}',
@@ -51,7 +51,7 @@ class TrainingCard extends StatelessWidget {
                                   TrainingModel().trainingModel[i]
                                   ['image'],
                                   fit: BoxFit.fill,
-                                  width: 150,
+                                  width: 120,
                                   height: double.infinity,
                                 ),
                               ),

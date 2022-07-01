@@ -40,7 +40,7 @@ class TrainingDays extends StatelessWidget {
                     ),
                     CustomText(
                       title: NewAccStep5Cubit.get(context).days[i],
-                      size: 12,
+                      size: 11,
                       fontWeight: FontWeight.bold,
                     )
                   ],

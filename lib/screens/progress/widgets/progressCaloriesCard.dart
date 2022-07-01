@@ -9,7 +9,6 @@ class ProgressCaloriesCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
           color: AppColors.white,
           borderRadius: BorderRadius.circular(10),
@@ -20,7 +19,7 @@ class ProgressCaloriesCard extends StatelessWidget {
           children: [
             CustomText(
               title: text1,
-              size: 14,
+              size: 12,
               fontWeight: FontWeight.bold,
               color: AppColors.black,
             ),
@@ -29,7 +28,7 @@ class ProgressCaloriesCard extends StatelessWidget {
             ),
             CustomText(
               title: text2,
-              size: 14,
+              size: 12,
               color: AppColors.primary,
             ),
           ]),

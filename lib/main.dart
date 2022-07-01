@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Cairo',
+      ),
       home: SplashScreen(),
       builder: (context,child)=>Directionality(textDirection: TextDirection.rtl,child: child,),
     );

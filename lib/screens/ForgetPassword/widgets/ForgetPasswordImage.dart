@@ -7,7 +7,7 @@ class ForgetPasswordImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Padding(
-        padding: EdgeInsets.all(20),
+        padding: EdgeInsets.all(15),
         child: Image.asset(
           Res.forgetPassword,
           height: 200,

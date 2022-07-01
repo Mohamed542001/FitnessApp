@@ -73,7 +73,7 @@ class Home extends StatelessWidget {
       body: Container(
         width: double.infinity,
         color: AppColors.white,
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(15),
         child: ListView(
           children: [
             HomeSearch(),

@@ -10,6 +10,7 @@ class NewAccStep4 extends StatelessWidget {
         width: double.infinity,
         height: double.infinity,
         color: AppColors.white,
+        margin: EdgeInsets.all(15),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

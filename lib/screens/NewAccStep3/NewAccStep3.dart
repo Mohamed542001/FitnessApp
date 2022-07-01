@@ -7,8 +7,8 @@ class NewAccStep3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        margin: EdgeInsets.all(15),
         width: double.infinity,
-        height: double.infinity,
         color: AppColors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -16,7 +16,6 @@ class NewAccStep3 extends StatelessWidget {
             WelcomeText(),
             Container(
               alignment: Alignment.topRight,
-              padding: EdgeInsets.all(20),
               child: ExerciseLocation(),
             ),
             NewAccStep3Button(),

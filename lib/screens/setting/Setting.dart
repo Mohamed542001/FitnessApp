@@ -16,7 +16,7 @@ class Setting extends StatelessWidget {
         Container(
           width: double.infinity,
           color: AppColors.white,
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.all(15),
           child: Column(
             children: [
               PersonalInformation(),

@@ -58,7 +58,7 @@ class TopicsCard extends StatelessWidget {
                                   HomeCardData().homeCardData[i]
                                   ['image'],
                                   fit: BoxFit.fill,
-                                  width: 100,
+                                  width: 60,
                                   height: double.infinity,
                                 ),
                               ),

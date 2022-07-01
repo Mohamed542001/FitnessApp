@@ -8,7 +8,7 @@ class CardsInformation extends StatelessWidget {
     return Column(
       children: [
         Container(
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.symmetric(vertical: 20),
             child: GridView.builder(
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
@@ -25,7 +25,7 @@ class CardsInformation extends StatelessWidget {
             ),
         ),
         Container(
-            margin: EdgeInsets.symmetric(horizontal: 20),
+            margin: EdgeInsets.symmetric(vertical: 20),
             child: GridView.builder(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),

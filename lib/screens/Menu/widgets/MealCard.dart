@@ -11,7 +11,7 @@ class MealCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              margin: EdgeInsets.symmetric(horizontal: 15, vertical: 5),
+              margin: EdgeInsets.symmetric(vertical: 5),
               child: CustomText(
                 title:
                 '${MealModel().mealModel[i]['title']}',

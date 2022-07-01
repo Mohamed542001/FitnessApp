@@ -7,7 +7,7 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.all(20),
+        padding: EdgeInsets.all(15),
         color: AppColors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
