@@ -6,19 +6,20 @@ class MealDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        height: double.infinity,
-        color: AppColors.white,
-        width: double.infinity,
-        child: ListView(
-          children: [
-            MealImage(),
-            MealTitle(),
-            MealComponents(),
-            MealPreparation(),
-            TotalCalories(),
-          ],
-        ),
+      body: CustomScrollView(
+        slivers: [
+          BuildMealSliverAppBar(),
+          SliverFillRemaining(
+            child: Column(
+              children: [
+                MealTitle(),
+                MealComponents(),
+                MealPreparation(),
+                TotalCalories(),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
